@@ -1,10 +1,12 @@
-Konfigurasi
+#Konfigurasi
 
 1. Jika kita mengakses menggunakan Windows, kita perlu mengonfigurasi environment path dari windows tersebut. Hal ini akan mengizinkan kita untuk menambahkan jaringan internal pada virtual box yang akan digunakan.
 picture
 
 2. Tambahkan sebuah jaringan internal dengan cara mengetikkan perintah berikut di cmd komputer host.
-"VBoxManage dhcpserver add --netname intnet ip 10.0.1.1 --netmask 255.255.255.0 --lowerip 10.0.1.100 --upperip 10.0.1.200 --enable"
+```shell
+VBoxManage dhcpserver add --netname intnet ip 10.0.1.1 --netmask 255.255.255.0 --lowerip 10.0.1.100 --upperip 10.0.1.200 --enable
+```
 
 3. Jalankan virtual box.
 
@@ -13,9 +15,11 @@ picture
 5. Jalankan metasploit, masukkan username dan password : msfadmin/msfadmin.
 
 6. Periksa apakah ip dari metasploit telah diatur dengan menggunakan perintah berikut.
-"ifconfig"
+```bash
+ifconfig
+```
 
-7. Setelah login, jalankan perintah "startx" agar bisa mengakses UI.
+7. Setelah login, jalankan perintah ```startx``` agar bisa mengakses UI.
 
 8. Edit pengaturan jaringan backtrack menjadi internal network dan pilih intnet.
 
