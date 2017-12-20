@@ -7,31 +7,27 @@ Lesson 5: Using Tamper Data with crack_web_form.p1
 3. Akses alamat ip dari server metasploit, kemudian masuk ke halaman login DVWA.
 
 4. Pada tab tools, pilih Tamper Data, maka akan jendela berikut.
-![Tamper Data](image/13-jendelatamperdata.PNG)
+![Gambar](image/13-jendelatamperdata.PNG)
 
 5. Masukkan username dan password yang benar ke halaman login DVWA, klik submit.
 
 6. Sebuah pop up akan muncul, hilangkan centang untuk continue tampering dan kemudian submit.
-picture(14)
-![Tamper](image/14-kliksubmituncheckcontinue.PNG)
+![Gambar](image/14-kliksubmituncheckcontinue.PNG)
 
 7. Di jendela Tamper Data akan terlihat semua lalu lintas data yang terjadi, baik GET maupun POST.
-picture(15)
-![Tamper](/image/)
+![Gambar](image/15-hasiltemper.PNG)
 
 8. Klik pada baris POST, maka request header dan nilainya akan terlihat. Jika username dan password yang dimasukkan bena kedua nilanya akan ditampilkan disini.
-picture(16)
-![Tamper](/image/)
+![Gambar](image/16-datayangdipostakanterlihat.PNG)
 
 9. Salin nilai tersebut ke gedit. Simpan dengan nama dvwa-post-data.txt
 
 10. Logout dan coba kembali melakukan proses tersebut dengan sebuah password  yang salah.
-picture(17)
-![Tamper](/image/)
+![Gambar](image/17salahpassword.PNG)
 
 11. Salin teks yang menyatakan terjadinya kesalahan  password, pindahkan ke file dvwa-post-data.txt.
 picture(18)
-![Tamper](/image/)
+![Gambar](image/18-salin-ke-file.PNG)
 
 12. Buat folder /pentest/passwords/cwf.
 ```
@@ -59,5 +55,6 @@ chmod 700 crack_web_form.pl
 ```
 ./crack_web_form.pl -U admin -P password.txt -http "http://192.168.1.106/dvwa/login.php" -data "username=USERNAME&password=PASSWORD&Login=Login" -M "Login failed"```
 picture(21-1 dan 21-2)
-![Tamper](/image/)
+![Gambar](image/21-testing-1.PNG)
+![Gambar](image/21-testing-2.PNG)
 
