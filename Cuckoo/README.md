@@ -64,7 +64,7 @@ Sebelum memasuki tahapan konfigurasi pastikan windows 7 yang akan menjadi sandbo
 ```shell
 pip install pillow
 ```
-
+  
 ### Mengatur Konfigurasi Cuckoo
 
 Pada tahap ini instalasi sudah selesai dan ada beberapa konfigurasi yang perlu di setting agar cuckoo dapat berjalan dengan semestinya.
@@ -75,7 +75,6 @@ Pada tahap ini instalasi sudah selesai dan ada beberapa konfigurasi yang perlu d
 mysql -u root -p
 [Password user root]
 ``` 
-Sete
 ```msql
 create databases cuckoo
 ```
