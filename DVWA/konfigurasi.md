@@ -1,7 +1,7 @@
 ## Konfigurasi
 
 1. Jika kita mengakses menggunakan Windows, kita perlu mengonfigurasi environment path dari windows tersebut. Hal ini akan mengizinkan kita untuk menambahkan jaringan internal pada virtual box yang akan digunakan.
-pictures
+![HA](/Images/WPScan-URI2.png)
 
 2. Tambahkan sebuah jaringan internal dengan cara mengetikkan perintah berikut di cmd komputer host.
 ```shell

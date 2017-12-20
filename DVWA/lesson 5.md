@@ -7,13 +7,13 @@ Lesson 5: Using Tamper Data with crack_web_form.p1
 3. Akses alamat ip dari server metasploit, kemudian masuk ke halaman login DVWA.
 
 4. Pada tab tools, pilih Tamper Data, maka akan jendela berikut.
-![Tamper Data](/image/13-jendelatamperdata.PNG)
+![Tamper Data](image/13-jendelatamperdata.PNG)
 
 5. Masukkan username dan password yang benar ke halaman login DVWA, klik submit.
 
 6. Sebuah pop up akan muncul, hilangkan centang untuk continue tampering dan kemudian submit.
 picture(14)
-![Tamper](/image/14-kliksubmituncheckcontinue.PNG)
+![Tamper](image/14-kliksubmituncheckcontinue.PNG)
 
 7. Di jendela Tamper Data akan terlihat semua lalu lintas data yang terjadi, baik GET maupun POST.
 picture(15)
