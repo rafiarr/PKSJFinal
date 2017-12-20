@@ -1,22 +1,24 @@
-Eksplorasi Cuckoo
-=================
+# Eksplorasi Cuckoo
 
 Dalam eksplorasi cuckoo kelompok kami menggunakan windows 10 untuk menginstall cuckoo dan ubuntu sebagai subsystem
 
-Tahap Installasi
-----------------
+##Tahap Installasi
 
-# Mengaktifkan Windows Subsystem for Linux
+Sebelum dapat menganalisa file menggunakan cuckoo maka ada beberapa hal yang harus di persiapkan sebelum install cuckoo.
 
-Untuk mengaktifkan WSL dapat dilakukan melalui PowerShell dengan menuliskan sintaks berikut
+### Mengaktifkan Windows Subsystem for Linux
+
+Untuk mengaktifkan WSL dapat dilakukan melalui PowerShell dengan menuliskan sintaks berikut.
 
 ```shell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
+### Install Ubuntu 
+
 Setelah menjalankan perintah tersebut windows akan meminta untuk *reboot* agar fitur dapat diaktifkan.
 
-Berikutnya install ubuntu melalui Microsoft Store
+Berikutnya install ubuntu melalui Microsoft Store. Jika download telah berhasil jalankan ubuntu melalui windows. Lakukan instalasi ubuntu dengan me
 
 
 
